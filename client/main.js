@@ -19,7 +19,7 @@ Template.hello.helpers({
   },
   getBalance()
   {
-    EthTools.ticker.findOne('usd')
+    return EthTools.ticker.findOne('usd');
   }
 });
 
