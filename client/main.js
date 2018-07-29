@@ -7,6 +7,7 @@ Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
   this.counter = new ReactiveVar(0);
   EthBlocks.init();
+  EthTools.ticker.start();
 });
 
 Template.hello.helpers({
@@ -16,6 +17,10 @@ Template.hello.helpers({
   currentBlock() {
         return EthBlocks.latest.number;
     }
+  getBalance()
+  {
+    EthTools.ticker.findOne('usd')
+  }
 });
 
 Template.hello.events({
