@@ -224,4 +224,4 @@ myAdCardGame = {
   "networks": {},
   "schemaVersion": "2.0.1",
   "updatedAt": "2018-07-29T19:20:02.728Z"
-}
+};

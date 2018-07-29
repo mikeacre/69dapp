@@ -1,3 +1,4 @@
+tryThis = "hello";
 myAdCardToken = {
   "contractName": "AdCardToken",
   "abi": [
@@ -641,4 +642,4 @@ myAdCardToken = {
   ],
   "schemaVersion": "2.0.1",
   "updatedAt": "2018-07-29T19:20:02.724Z"
-}
+};
