@@ -1,9 +1,9 @@
-#Acey-Duecy Simulator Dapp
+# Acey-Duecy Simulator Dapp
 
-##Acey-Duecy Card game
+## Acey-Duecy Card game
 In the standard game two cards are draw, then a wager is placed that the next card will be in between those two.
 
-##As a Dapp
+## As a Dapp
 
 This dApp will allow a user to play a game of Acey-Duecy with the contract.
 
