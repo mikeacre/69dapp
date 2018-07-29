@@ -12,6 +12,9 @@ Template.hello.helpers({
   counter() {
     return Template.instance().counter.get();
   },
+  currentBlock() {
+        return EthBlocks.latest.number;
+    }
 });
 
 Template.hello.events({
