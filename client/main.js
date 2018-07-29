@@ -3,11 +3,11 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
 
-var myContract =  new web3.eth.Contract([...], '0x8cfa221be088a9447f6c7c64f0138975e39c0744', {
+/*var myContract =  new web3.eth.Contract([...], '0x8cfa221be088a9447f6c7c64f0138975e39c0744', {
   from: web3.eth.accounts,
   gasPrice: '20000000000'
 });
-
+*/
 console.log(myContract);
 
 console.log(contract_instance);
