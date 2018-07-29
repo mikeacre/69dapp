@@ -3,11 +3,16 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
 
+var MyContract = web3.eth.contract(<ABI>);
+var contract_instance = MyContract.at('0x8cfa221be088a9447f6c7c64f0138975e39c0744');
+console.log(contract_instance);
+
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
   this.counter = new ReactiveVar(0);
   EthBlocks.init();
   EthTools.ticker.start();
+
 });
 
 Template.hello.helpers({
