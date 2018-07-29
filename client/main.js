@@ -16,7 +16,7 @@ Template.hello.helpers({
   },
   currentBlock() {
         return EthBlocks.latest.number;
-    }
+  },
   getBalance()
   {
     EthTools.ticker.findOne('usd')
