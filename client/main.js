@@ -8,9 +8,7 @@ import './main.html';
   gasPrice: '20000000000'
 });
 */
-console.log(myContract);
 
-console.log(contract_instance);
 
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
