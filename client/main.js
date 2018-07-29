@@ -3,12 +3,7 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
 
-var fs = require('fs');
-var jsonFile = "lib/AdCardToken.json";
-var parsed= JSON.parse(fs.readFileSync(jsonFile));
-var abi = parsed.abi;
-
-var myContract =  new web3.eth.Contract(abi.abi, '0x8cfa221be088a9447f6c7c64f0138975e39c0744', {
+var myContract =  new web3.eth.Contract(myAdCardGame.abi, '0x8cfa221be088a9447f6c7c64f0138975e39c0744', {
   from: web3.eth.accounts,
   gasPrice: '20000000000'
 });
