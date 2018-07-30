@@ -18,3 +18,6 @@ If the players card is decided to be low it will be evaluated as a victory if pl
 If players card is decided to be high it will be evaluated as a victory if lastCard < middleCard < playersCard
 
 If it is a loss, the wager is lost. If it is a win, 1.5* the wager is returned less the gameCost.
+
+##IPFS
+[!alt text](https://gateway.ipfs.io/ipfs/QmUJjRjNy1pzXLhxcxjqQzwkx6jQ3b26wXTjzpGJyfY81r/cards/JPEG/10C.jpg)
