@@ -6,8 +6,9 @@ import './main.html';
 /*var myContract =  new web3.eth.Contract(myAdCardGame.abi, '0x8cfa221be088a9447f6c7c64f0138975e39c0744', {
   from: web3.eth.accounts,
   gasPrice: '20000000000'
-});*/
-
+});
+*/
+//console.log(THE_ANSWER);
 
 
 Template.hello.onCreated(function helloOnCreated() {
