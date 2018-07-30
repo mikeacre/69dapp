@@ -2,13 +2,16 @@ import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
+import './lib/init.js';
+import './lib/adCardGame.js';
+import './lib/adCardToken.js';
 
-/*var myContract =  new web3.eth.Contract(myAdCardGame.abi, '0x8cfa221be088a9447f6c7c64f0138975e39c0744', {
-  from: web3.eth.accounts,
-  gasPrice: '20000000000'
-});
-*/
-//console.log(THE_ANSWER);
+
+adGameContract = new web3.eth.contract(adCardGame.abi, '0x5871935143e4e88114a92866895b0e8d43bb4931');
+var adTokenContract = new web3.eth.contract(adCardToken.abi, '0x93d9179a87ad987420c9b1622a579b3f5981c80d');
+
+console.log(adGameContract);
+console.log(adTokenContract);
 
 
 Template.hello.onCreated(function helloOnCreated() {
